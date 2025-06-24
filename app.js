@@ -249,11 +249,7 @@ This method should:
 Solve Exercise 14 here:
 */
 game.partyCount = function() {
-    total = 0;
-    for (let i = 0; i < game.party.length; i++) {
-        total+=1
-    };
-    return total;
+    return game.party.length;
 }
 
 console.log('Exercise 14:', game.partyCount())
